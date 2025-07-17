@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хипионерская ПРАВДА</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .rainbow-header {
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .article-card {
+            margin-bottom: 20px;
+            border-left: 5px solid #6f42c1;
+        }
+        .quote-block {
+            border-left: 3px solid #6f42c1;
+            padding-left: 15px;
+            font-style: italic;
+            margin: 15px 0;
+        }
+        .sidebar-section {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .crossword-container {
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .event-card {
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .event-card h4 {
+            color: #6f42c1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="rainbow-header py-3 mb-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1 class="display-4">Хипионерская  ПРАВДА</h1>
+                    <p class="lead">Выпуск №2 от 24 июня 2025 года</p>
+                </div>
+                <div class="col-md-4 text-end">
+                    <img src="https://via.placeholder.com/150x100" alt="Логотип" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <!-- Main Content -->
+            <main class="col-md-8">
+                <!-- Featured Article -->
+                <article class="card article-card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">ИНТЕРВЬЮ С ОМОМ</h2>
+                        <h3 class="card-subtitle mb-3 text-muted">«Объявляю нашу планету планетой Радуга!»</h3>
+                        
+                        <div class="quote-block">
+                            <p><strong>Редакция:</strong> Подскажите, пожалуйста, как нам жить, во что верить?</p>
+                            <p><strong>Омыч:</strong> Любовь ко всему – вот вектор бытия! Главное, чтобы сердце работало любовью, и чтобы ум был в гармонии с сердцем. Это, в общем-то, и есть формула счастья жизни.</p>
+                        </div>
+                        
+                        <p>В преддверии открытия радужного сезона, перед нами начали вставать забытые за зиму экзистенциальные вопросы: куда нам ехать на Радугу и ехать ли, и если ехать, то почему на Радугу? Кто мы, к чему это всё, как мы здесь оказались?</p>
+                        
+                        <div class="quote-block">
+                            <p><strong>Омыч:</strong> Радуга же вне политики. И мы все братья и сестры. Это один из главных моментов и основополагающих принципов радужного бытия.</p>
+                        </div>
+                        
+                        <a href="#" class="btn btn-outline-primary">Читать полное интервью</a>
+                    </div>
+                </article>
+
+                <!-- News Section -->
+                <section class="mb-5">
+                    <h2 class="mb-4 border-bottom pb-2">Новости чатов</h2>
+                    
+                    <div class="card article-card mb-3">
+                        <div class="card-body">
+                            <h4>После пилотного выпуска "Хипионерки"</h4>
+                            <p>Чат Вавилонских дел прорвало тысячами сообщений. Мы стали сенсацией. Плант и Козлуев битые сутки наперебой обсуждали масштаб и перспективы издания...</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card article-card mb-3">
+                        <div class="card-body">
+                            <h4>Трибочек радует нас ежедневными сводками</h4>
+                            <p>Трибочек стартовал 17 июня из города Чехова и вот-вот доедет до Радуги на Алтае, преодолев почти 4000 км по железке.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card article-card">
+                        <div class="card-body">
+                            <h4>Оставлен с маньяком в лесу</h4>
+                            <p>В Радужном Движе, как обычно, полнолуние прошло успешно. На этот раз в Битце, как раз перед самым началом сезона дождей...</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Events Section -->
+                <section class="mb-5">
+                    <h2 class="mb-4 border-bottom pb-2">Перспективы: Ближайшие собрания</h2>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="event-card">
+                                <h4>АЛТАЙ</h4>
+                                <p>25 июня - 25 июля 2025</p>
+                                <p>Напомним, что это третий раз в России, когда наша Радуга едет на Алтай. Последнее подобное восхождение было в 2008 году.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="event-card">
+                                <h4>ОКОЛОМОСКОВСКАЯ РАДУГА</h4>
+                                <p>25 июня 2025</p>
+                                <p>25-го июня стартует и Радуга близ Кремля - Околомосковская Радуга. Прошлогодняя прогульщица на этот раз выбрала себе место у реки со звучным именем Кирржач.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="event-card">
+                                <h4>КРЫМНАШ</h4>
+                                <p>С 12 июня 2025</p>
+                                <p>Начиная с 12 июня в солнечном Крыму обосновался Крымский сидкемп. Нынешними сидкемперами провернута очередная революция по дистанцированию от радужных традиций.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="event-card">
+                                <h4>ЛУННЫЙ МЕСЯЦ АВГУСТ</h4>
+                                <p>24 июля - 23 августа 2025</p>
+                                <p>Вторая часть (Марлезонского балета) ждёт нас в августе: РР переберётся в Вологодскую область.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Story Section -->
+                <section class="mb-5">
+                    <h2 class="mb-4 border-bottom pb-2">Муравьиная Царица</h2>
+                    <div class="card article-card">
+                        <div class="card-body">
+                            <p>Сколько себя помню, я всегда олицетворял себя с муравьиной царицей. Когда одноклассники мечтали о собаке, кошке или хомячке, а потом об отношениях, я просто хотел иметь себе подругу – Муравьиную Царицу...</p>
+                            <a href="#" class="btn btn-outline-primary">Читать продолжение</a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Sidebar -->
+            <aside class="col-md-4">
+                <!-- Crossword -->
+                <div class="sidebar-section crossword-container">
+                    <h3>Кроссворд</h3>
+                    <h4>По горизонтали:</h4>
+                    <ol>
+                        <li>Они называют себя детьми цветов</li>
+                        <li>Тряпочка или ленточка для обозначения правильной дороги</li>
+                        <li>Место, где всегда нужна помощь</li>
+                        <li>Волшебный головной убор</li>
+                        <li>С него начинается любое собрание</li>
+                    </ol>
+                    <h4>По вертикали:</h4>
+                    <ol>
+                        <li>На собрании она заменяет собой закон</li>
+                        <li>Приведение местности в порядок</li>
+                        <li>Крупная дорога между популярных локаций</li>
+                        <li>Любимый клич всех радужных</li>
+                        <li>Армия любви</li>
+                    </ol>
+                </div>
+
+                <!-- Personal Ads -->
+                <div class="sidebar-section">
+                    <h3>Брачные объявления</h3>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Одинокая молодая девушка 30-ти лет</h5>
+                            <p class="card-text">Русая, зеленоглазая, рост 162, стройная, активная, люблю летом выбираться на лунный месяц с палаткой в лес...</p>
+                            <small class="text-muted">+7-919-766-65-64, Мария</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Сергей "Грибочек", 45 лет</h5>
+                            <p class="card-text">Увлекаясь общественным транспортом, особенно железными дорогами и, в последнее время, кораблями...</p>
+                            <small class="text-muted">+79996568212, Сергей</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Editorial Info -->
+                <div class="sidebar-section">
+                    <h3>От РЕДАКЦИИ</h3>
+                    <p>Редакция "Хипионерки" будет рада принять в свои объятья дизайнера, владеющего фотошопом или другими аналогичными графическими программами.</p>
+                    <p>Твоя статья может быть издана в следующем выпуске! Для любых отзывов и предложений <a href="mailto:hipionerka@mail.ru">hipionerka@mail.ru</a></p>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Выпуск подготовили:</h5>
+                    <ul class="list-unstyled">
+                        <li>Автор идеи, выпускающий редактор - Нина pingreen</li>
+                        <li>Иллюстрации - Евгения, Arina Shekseper, Seeveria</li>
+                        <li>Авторы: Полина Забияка, Травич, Нина pingreen</li>
+                        <li>Кроссворд: Яков</li>
+                        <li>Вёрстка: Игорь</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5>Контакты</h5>
+                    <p>Email: <a href="mailto:hipionerka@mail.ru" class="text-white">hipionerka@mail.ru</a></p>
+                    <p>Телеграм: @hipionerka</p>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2025 Хипионерская ПРАВДА. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
