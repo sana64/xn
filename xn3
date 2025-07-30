@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хипионерская правда. Выпуск 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Times New Roman', serif;
+        }
+        .magazine-cover {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .header {
+            border-bottom: 2px solid #6c757d;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        .article {
+            margin-bottom: 40px;
+        }
+        .article-title {
+            color: #dc3545;
+            margin-bottom: 20px;
+        }
+        .sidebar {
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .quote {
+            font-style: italic;
+            border-left: 3px solid #6c757d;
+            padding-left: 15px;
+            margin: 20px 0;
+        }
+        .photo-credit {
+            font-size: 0.8em;
+            color: #6c757d;
+            text-align: right;
+            margin-top: -10px;
+        }
+        .page-number {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            font-size: 0.8em;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-4">
+        <div class="magazine-cover">
+            <!-- Заголовок журнала -->
+            <div class="header text-center mb-4">
+                <h1 class="display-4">Клиническая ПРАВДА</h1>
+                <p class="lead">Хипионерская правда. Выпуск 3</p>
+            </div>
+
+            <div class="row">
+                <!-- Основное содержание -->
+                <div class="col-lg-8">
+                    <!-- Новости чатов -->
+                    <div class="article">
+                        <h2 class="article-title">НОВОСТИ ЧАТОВ</h2>
+                        <p><strong>Основной лейтмотив нынешних чатиков – телепорт в Вологду!</strong> Вологодская РР, напомним, на днях открыла свои врата «официально». Между тем, первые поселенцы живут на месте уже месяц.</p>
+                        
+                        <div class="quote">
+                            <p>«Есть вороны, БУРУНДУК живет у поворота с трассы и вылезает из кустов на шорох пакета — пробуйте. Медведь есть. Лоси. Сейчас сухая погода и полно подосиновиков. После дождя квадратно-гнездовые боровики. Берите крем от солнца. Дрова безлимитные. Рядом капище с бабой-ятой. Бобры!!! Белки изобильно.»</p>
+                            <p class="text-end">— Модест</p>
+                        </div>
+                        
+                        <p>Ну и как, скажите-ка, после такой рекламы оставаться дома?</p>
+                        
+                        <p>Параллельно радужные обитатели чатов с интересом следят за конфликтом между любителем удодов и ночующих в лесу...</p>
+                    </div>
+
+                    <!-- Алтай отдуха легкие -->
+                    <div class="article">
+                        <h2 class="article-title">Алтай отдуха легкие</h2>
+                        <h3 class="h5">РР 25.06.2025–24.07.2025</h3>
+                        
+                        <div class="quote">
+                            <p>«На Алтае куда ни посмотри – везде красиво. И рядом обязательно что-то журчит.»</p>
+                            <p class="text-end">— Сергей Носов</p>
+                        </div>
+                        
+                        <p>Горы лысые, мохнатые, полосатые; в клеточку, в кустарник, в берёзку, в ёлочку, в щербет; стройные, узкие, кособокие, зелёные, красные, жёлтые, пятнистые, квадратные. Но всегда кем-то таинственным безусловно гармонично сложенные.</p>
+                        
+                        <div class="text-center my-4">
+                            <img src="https://via.placeholder.com/600x400" alt="Горный пейзаж Алтая" class="img-fluid rounded">
+                            <p class="photo-credit">Фото: Low Red</p>
+                        </div>
+                        
+                        <p>Аэропорт Горно-Алтайска крошечный, как будто игрушечный. И самолётов на взлетной полосе раз, два, три... Да их только три. Выходишь на улицу – тепло, солнечно, небо обнимают зелёные ласковые горы.</p>
+                    </div>
+
+                    <!-- Интервью с Гоней -->
+                    <div class="article">
+                        <h2 class="article-title">ИНТЕРВЬЮ С ГОНЕЙ</h2>
+                        <h3 class="h4 text-danger">«Свобода заканчивается помойкой»</h3>
+                        
+                        <p>В Радуге есть очень многое от фашизма. Но фюрер ей не нужен, зато он нужен в радужных чатах. Герой нашего интервью любит мучать исключительно кошек.</p>
+                        
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Редакция:</h5>
+                                <p class="card-text">Что происходит сейчас с Радугой?</p>
+                                
+                                <h5 class="card-title">Sir:</h5>
+                                <p class="card-text">На Радуге появилось очень много конформистских настроенных людей. Не все. «Хиппи» — это все-таки путь, да? И появилось много людей, которые относятся к Радуге не как к пути, не как к образу жизни, не как хотя бы к некоему действу, которое мы должны воплотить, да?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Z – новый пацифик -->
+                    <div class="article">
+                        <h2 class="article-title">Z – новый пацифик и символ мира?</h2>
+                        
+                        <p>Среди хиппи не утихают споры относительно буквы Z. Кто-то называет её новым символом мира и хочет замены на неё Пацифика. Другие с негодованием относятся к этой букве и требуют запретить. И у тех и других свои аргументы.</p>
+                        
+                        <div class="alert alert-info">
+                            <p>А вам что ближе – Z или Пацифик? Пожалуйста, напишите об этом нам в редакцию. И мы обязательно поделимся вашими ответами в следующем выпуске.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Боковая панель -->
+                <div class="col-lg-4">
+                    <div class="sidebar">
+                        <h3 class="h5">Коротко</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">→ В Вавилонских делах полиаморные отношения с собственными субличностями. Пристраивают кошек. Ищут жильё в Москве.</li>
+                            <li class="mb-3">→ В «Радуге движ Москве» прошёл июльский фуллмун «для обездоленных», которые не смогли встретить его на Радугах.</li>
+                            <li class="mb-3">→ В Том Самом Чате, Да и, пожалуй, уже повсюду, слышатся стоны нашего любимого Ослика Иа-Иа (Грибочка).</li>
+                        </ul>
+
+                        <h3 class="h5 mt-4">МУ-РАДУГА</h3>
+                        <p>Как-то однажды, добрым летним радужным утром, когда любящие погусить у ночного Майна только-только начали дремать...</p>
+
+                        <h3 class="h5 mt-4">МУСОР</h3>
+                        <p>Весьма неприятный осадок остался у меня после Ладуги. Настолько неприятный, чтобы заставить задуматься, стоит ли продолжать ездить на Радуги вообще.</p>
+                    </div>
+
+                    <div class="mt-4 text-center">
+                        <img src="https://via.placeholder.com/300x200" alt="Радужный круг" class="img-fluid rounded mb-2">
+                        <p class="photo-credit">Фото: Славленье Нелевое</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="alert alert-light">
+                        <p class="mb-0"><strong>Твоя статья может быть издана в следующем выпуске!</strong> Для любых отзывов и предложений, ждём ваших писем к нам в редакцию <a href="mailto:hipionerka@mail.ru">hipionerka@mail.ru</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer text-center text-muted small mt-4">
+                <p>Над выпуском работали: автор идеи и редактор півgreen вёрстка и дизайн Настя Тетива художники Атіна Shekseper, Евгения авторы Полина Забияка, Александр Гороховатский, Арсений Травин, Михаил Линь, Саша Беколь и Настя Тетива, півgreen</p>
+            </div>
+
+            <div class="page-number">Стр. 1-10</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
